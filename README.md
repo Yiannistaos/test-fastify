@@ -24,3 +24,5 @@ Then open the URLs:
 - [x] Host to Vercel 
 - [ ] Authentication, middleware, etc.
 - [ ] Create more routes
+- [ ] Send email after adding an item
+- [ ] Add data to database
