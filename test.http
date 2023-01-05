@@ -28,12 +28,12 @@ Content-Type: application/json
 
 ############################ TEST REMOTELY
 ### GET ALL ITEMS
-GET https://test-fastify-87lry4p3m-yiannistaos.vercel.app/items
+GET https://test-fastify-tan.vercel.app/items
 
 #### ADD AN ITEM
-POST https://test-fastify-87lry4p3m-yiannistaos.vercel.app/items
+POST https://test-fastify-tan.vercel.app/items
 Content-Type: application/json
 
 {
-    "name": "abcxxx"
+    "name": "test"
 }
