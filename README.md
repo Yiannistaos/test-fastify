@@ -21,3 +21,4 @@ This repo was created while learning fastify and watching [Brad's video](https:/
 - [ ] Host to Vercel 
 - [ ] Authentication, middleware, etc.
 - [ ] Create more routes
+- [ ] Work with a database (e.g. MySql)
