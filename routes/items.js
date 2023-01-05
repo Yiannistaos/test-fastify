@@ -88,6 +88,7 @@ const updateItemOpts = {
 
 function itemRoutes(fastify, options, done) {
     // Get All Items
+
     fastify.get('/items', getItemsOpts);
 
     // Get Single Item

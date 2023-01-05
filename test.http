@@ -25,3 +25,15 @@ Content-Type: application/json
 {
     "name": "xxx"
 }
+
+############################ TEST REMOTELY
+### GET ALL ITEMS
+GET https://test-fastify-87lry4p3m-yiannistaos.vercel.app/items
+
+#### ADD AN ITEM
+POST https://test-fastify-87lry4p3m-yiannistaos.vercel.app/items
+Content-Type: application/json
+
+{
+    "name": "abcxxx"
+}

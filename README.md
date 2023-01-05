@@ -6,19 +6,21 @@ This repo was created while learning fastify and watching [Brad's video](https:/
 
 ### HOW TO START
 
-```npm dev``` or ```npm start```
+1. `git clone https://github.com/Yiannistaos/test-fastify`
+2. `npm i`
+3. `npm run local:dev`
 
-- `http://localhost:5500/`
-- `http://localhost:5500/items`
-- `http://localhost:5500/items/3`
-- `http://localhost:5500/docs` (swagger)
+Then open the URLs:
+
+- `http://localhost:3000/`
+- `http://localhost:3000/items`
+- `http://localhost:3000/items/3`
 
 ### TASKS
 
 - [x] Fastify first setup
 - [x] Create a route with GET, POST, UPDATE, DELETE
 - [x] Swagger UI
-- [ ] Host to Vercel 
+- [x] Host to Vercel 
 - [ ] Authentication, middleware, etc.
 - [ ] Create more routes
-- [ ] Work with a database (e.g. MySql)
