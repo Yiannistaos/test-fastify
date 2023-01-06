@@ -22,7 +22,7 @@ Then open the URLs:
 - [x] Create a route with GET, POST, UPDATE, DELETE
 - [x] Swagger UI
 - [x] Host to Vercel 
+- [x] Add data to database
 - [ ] Authentication, middleware, etc.
 - [ ] Create more routes
 - [ ] Send email after adding an item
-- [ ] Add data to database
