@@ -29,6 +29,7 @@
     "fastify": "^3.0.0",
     "fastify-autoload": "^3.13.0",
     "fastify-cli": "^2.13.0",
+    "fastify-mysql": "^2.2.0",
     "fastify-plugin": "^3.0.0",
     "fastify-sensible": "^3.1.0",
     "uuid": "^9.0.0"

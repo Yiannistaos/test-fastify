@@ -1,30 +1,37 @@
 ### HOME PAGE
-GET http://127.0.0.1:5500/
+GET http://[::1]:3000/
+
 
 ### GET ALL ITEMS
-GET http://127.0.0.1:5500/items
+GET http://[::1]:3000/items
+
 
 #### GET SINGLE ITEM
-GET http://127.0.0.1:5500/items/3
+GET http://[::1]:3000/items/1
+
 
 #### ADD AN ITEM
-POST http://127.0.0.1:5500/items
+POST http://[::1]:3000/items
 Content-Type: application/json
 
 {
     "name": "abc"
 }
 
-#### DELETE A SINGLE ITEM
-DELETE http://127.0.0.1:5500/items/3
-
 #### UPDATE A SINGLE ITEM
-PUT http://127.0.0.1:5500/items/1
+PUT http://[::1]:3000/items/2
 Content-Type: application/json
 
 {
-    "name": "xxx"
+    "name": "test"
 }
+
+#### DELETE A SINGLE ITEM
+DELETE http://[::1]:3000/items/2
+
+
+
+
 
 ############################ TEST REMOTELY
 ### GET ALL ITEMS

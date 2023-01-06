@@ -11,6 +11,11 @@ module.exports = async function (fastify, opts) {
         routePrefix: '/docs',
     });
 
+    fastify.register(require('fastify-mysql'), {
+        // connectionString: 'mysql://root:root@127.0.0.1:8889/fastifydb',
+        connectionString: `${process.env.DB_CONNECTION}://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_DATABASE}`,
+    });
+
     // Do not touch the following lines
 
     // This loads all plugins defined in plugins
