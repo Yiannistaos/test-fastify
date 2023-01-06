@@ -26,3 +26,7 @@ Then open the URLs:
 - [ ] Authentication, middleware, etc.
 - [ ] Create more routes
 - [ ] Send email after adding an item
+
+### RESOURCES
+
+- Fastify cheatsheet [https://devhints.io/fastify](https://devhints.io/fastify)
