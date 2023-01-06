@@ -42,5 +42,10 @@ POST https://test-fastify-tan.vercel.app/items
 Content-Type: application/json
 
 {
-    "name": "test"
+    "name": "terastios-creta"
 }
+
+#### DELETE A SINGLE ITEM
+DELETE https://test-fastify-tan.vercel.app/items/d3647435-c79e-4172-b3c7-130a0acca3ed
+
+
